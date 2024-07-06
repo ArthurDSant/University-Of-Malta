@@ -1,0 +1,62 @@
+#Home {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 90vh;
+}
+
+.background__image {
+   max-width: 100%;
+   background-image: var(--image);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   /* border: 1px solid var(--border); */
+}
+
+.Home {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 50px;
+   gap: 250px;
+   color: #fdfdfd;
+}
+
+.home__left {
+   display: flex;
+   align-items: start;
+   flex-direction: column;
+}
+
+.home__left h4 {
+   font-weight: 400;
+   color: var(--second);
+}
+
+.home__left h1 {
+   font-weight: 500;
+   margin-top: 20px;
+   color: var(--second);
+}
+
+.SeeAllCourses {
+   margin-top: 50px;
+   width: 160px;
+   height: 45px;
+   border: 1px solid var(--second);
+   background-color: transparent;
+   transition: 0.2s;
+} .SeeAllCourses:hover {
+   border: none;
+   color: var(--fisrt);
+   background-color: var(--second);
+}
+
+
+.home__right img {
+   width: 170px;
+   margin-top: 120px;
+}

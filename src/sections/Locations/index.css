@@ -1,0 +1,56 @@
+.Locations {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   padding: 50px 0px 0px 0px;
+}
+
+.Locations h2 {
+   width: 100%;
+   text-align: start;
+}
+
+.Locations img {
+   width: 800px;
+}
+
+.Locations__blocks {
+   display: flex;
+   padding: 20px 0px 0px 0px;
+   gap: 20px;
+}
+
+.Location {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   width: 400px;
+   padding: 30px 40px;
+   border-radius: 12px;
+   box-shadow: 0px 0px 10px #0000002a;
+}
+
+.Location h2 {
+   font-size: 1.7rem;
+   padding: 0px 0px 10px 0px;
+}
+
+.location__mark {
+   font-size: 1.9rem;
+   color: var(--first);
+}
+
+.Location__second {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0px 0px 20px 0px;
+   gap: 20px;
+}
+
+.Location__second p {
+   font-size: 0.8rem;
+   width: 300px;
+}

@@ -1,0 +1,104 @@
+#Introduction {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.intro {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.intro h3 {
+   color: var(--first);
+}
+
+.arrow {
+   width: 100%;
+   margin-top: 15px;
+   font-size: 30px;
+   color: var(--first);
+}
+
+.intro__first h3 {
+   width: 500px;
+   padding: 40px 0 0 0;
+}
+
+.woman {
+   width: 900px;
+}
+
+.intro__first h4 {
+   width: 100%;
+   padding: 5px 0 0 0;
+   text-align: center;
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.intro__second {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 40px 0 0 0;
+}
+
+.intro__second h3 {
+   text-align: center;
+   width: 500px;
+   padding: 10px 0 0 0;
+}
+
+.intro__second p {
+   font-family: Poppins;
+   font-size: 1.1rem;
+   font-weight: 400;
+   padding-top: 10px;
+}
+
+.intro__third {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-top: 30px;
+   gap: 10px;
+}
+
+.intro__third h3 {
+   padding: 20px 0px 0px 0px;
+}
+
+.list {
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   gap: 10px;
+}
+
+.list h2 {
+   color: var(--first);
+   margin-top: -20px;
+}
+
+.list p {
+   font-size: 1.1rem;
+   font-weight: 500;
+}
+
+.intro__fourth {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 40px 0px 0px 0px;
+}
+
+.intro__fourth h3 {
+   padding: 0px;
+}
+
+.intro__fourth p {
+   padding: 10px 10px 0px 10px;
+   font-weight: 500;
+}

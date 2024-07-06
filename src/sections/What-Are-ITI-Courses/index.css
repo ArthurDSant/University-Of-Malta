@@ -1,0 +1,28 @@
+#WhatAreITICourses {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.text {
+   margin: 20px 0px;
+}
+
+.text h2 {
+   font-size: 1.5rem;
+   padding: 0px 0px 5px 0px;
+   color: var(--first);
+}
+
+.text h4 {
+   font-size: 1.2rem;
+   padding: 0px 0px 5px 0px;
+   color: #4188d3;
+}
+
+.text p {
+   font-weight: 500;
+   padding: 0 10px;
+}
+

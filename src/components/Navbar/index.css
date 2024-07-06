@@ -1,0 +1,203 @@
+@media (min-width: 500px) {
+
+   /* .nav__left a::after{
+      content: '';
+      width: 0%;
+      height: 2px;
+      left: 0;
+      bottom: 2px;
+      position: absolute;
+      background-color: var(--hover);
+      transition: 0.23s;
+   }
+
+   .nav__left a.active::after{
+      content: '';
+      width: 0%;
+      height: 2px;
+      left: 0;
+      bottom: 2px;
+      position: absolute;
+      background-color: var(--hover);
+      transition: 0.23s;
+   }
+   
+   .nav__left a:hover::after {
+      width: 100%;
+   }*/
+
+   .nav__left a:hover {
+      color: var(--hover);
+      text-decoration: underline;
+   } 
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 999999999;
+}
+
+.Navbar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 60px;
+   padding: 10px 0px;
+   background-color: var(--background);
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.toggleMenu {
+   display: none;
+   flex-direction: column;
+   cursor: pointer;
+   padding: 5px;
+   margin-right: -5px;
+}
+
+.toggleMenu .bar {
+   width: 25px;
+   height: 2px;
+   margin: 2.5px;
+   background-color: var(--color);
+}
+
+.nav__left {
+   width: 200px;
+}
+.nav__left a {
+   font-size: 1rem;
+   color: var(--color);
+   transition: 0.2s;
+   margin-right: 5px;
+}
+
+.navbar__logo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 130px;
+   gap: 10px;
+}
+
+.ii__logo {
+   width: 45px;
+}
+.malta__logo {
+   width: 30px;
+}
+
+
+.nav__right {
+   display: flex;
+   justify-content: space-around;
+   transition: 0.3s ease;
+   gap: 10px;
+}
+
+.SingIn {
+   color: var(--first);
+   border: 1px solid var(--first);
+   background-color: transparent;
+   transition: 0.2s;
+}.SingIn:hover {
+   color: var(--second);
+   border: none;
+   background-color: var(--hover);
+}
+.Register {
+   background-color: var(--first);
+   transition: 0.2s;
+}.Register:hover {
+   background-color: var(--hover);
+}
+
+@media (max-width: 1000px) {
+
+   .Navbar a:active {
+      color: var(--color);
+   }
+   /* ACTIVE AND HOVER */
+
+   nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0px;
+      width: 100%;
+      height: 60px;
+   }
+
+   .Navbar {
+      max-width: 100%;
+      align-items: center;
+      position: relative;
+   }
+
+   .navbar {
+      width: 90%;
+   }
+
+   .toggleMenu {
+      display: flex;
+   }
+
+   .navbar__logo img {
+      display: none;
+   }   
+
+   .nav__right {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      overflow: hidden;
+      top: 75px;
+      right: 0px;
+      width: 100%;
+      height: 0px;
+      opacity: 1;
+      gap: 2px;
+      padding: 0px 0px 0px 0px;
+      transition: 0.4s;
+   }
+
+   .nav__right a {
+      width: 95%;
+      font-size: 14px;
+      text-align: center;
+      padding: 5px 0 5px 0;
+      border-radius: 10px;
+   }
+
+   .nav__right.open {
+      top: 70px;
+      right: 0px;
+      width: 100%;
+      height: 120px;
+      opacity: 1;
+   }
+
+   .nav__right.open a {
+      width: 95%;
+      font-size: 14px;
+      text-align: center;
+      padding: 5px 0 5px 0;
+      color: var(--color);
+   }
+
+   .nav__right a.active {
+      text-decoration: none;
+      color: var(--color);
+   }
+}
