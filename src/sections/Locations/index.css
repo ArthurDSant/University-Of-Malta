@@ -54,3 +54,34 @@
    font-size: 0.8rem;
    width: 300px;
 }
+
+@media (max-width: 700px) {
+   .Locations {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 50px 0px 0px 0px;
+   }
+
+   .Locations img {
+      width: 100%;
+      margin: 15px 0px;
+   }
+
+   .Locations__blocks {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   .Location {
+      width: 300px;
+      padding: 20px 20px 10px;
+   }
+
+   .Location__second p {
+      font-size: 0.85rem;
+      width: 250px;
+   }
+}

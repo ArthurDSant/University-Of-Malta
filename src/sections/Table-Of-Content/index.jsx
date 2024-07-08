@@ -5,7 +5,7 @@ const index = () => {
     <div id='TableOfContent' className='center'>
       <div className='container'>
                 <h2>Table Of Content</h2>
-        <div className='TableOfContent'>
+        <div className='itens'>
           <div className='item'>
               <h3>1</h3>
             <div className='item__white'>

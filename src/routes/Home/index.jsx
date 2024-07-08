@@ -18,7 +18,6 @@ const index = () => {
       <TableOfContent />
       <ITICoursesDetails />
       <WhatAreITICourses />
-      
       <Conclusion />
       <Locations />
       {/* <Form /> */}

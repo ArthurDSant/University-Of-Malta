@@ -16,13 +16,16 @@
 }
 
 .text h4 {
-   font-size: 1.2rem;
    padding: 0px 0px 5px 0px;
    color: #4188d3;
 }
 
 .text p {
-   font-weight: 500;
    padding: 0 10px;
 }
 
+@media (max-width: 700px) {
+   #WhatAreITICourses {
+      padding: 0px 5px;
+   }
+}

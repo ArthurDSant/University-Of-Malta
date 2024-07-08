@@ -52,7 +52,7 @@
 }
 
 h1, h2, h3, h4 {
-   font-family: Poppins;
+   font-family: Montserrat;
    font-weight: 500;
    user-select: none;
    color: var(--first);
@@ -69,12 +69,12 @@ h3 {
    padding: 0px 0px 10px 0px;
 }
 h4 {
-   font-size: 21px;
+   font-size: 1.2rem;
 }
 p {
-   font-family: Montserrat;
-   font-size: 16px;
-   font-weight: 500;
+   font-family: Poppins;
+   font-size: 1rem;
+   font-weight: 400; 
 }
 a {
    font-family: Montserrat;
@@ -99,6 +99,7 @@ body {
    place-items: center;
    min-width: 320px;
    min-height: 100vh;
+   overflow-x: hidden;
 }
  
 h1 {

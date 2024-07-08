@@ -7,24 +7,24 @@ import './index.css'
 const index = () => {
   return (
     <div>
-    <div id='Footer__Black' className='center'>
-      <div>
+      <div id='Footer__Black' className='center'>
+        <div>
 
-        <div className='Footer__1 container'>
-          <div className='Footer__1__content'>
-            <h2>Sing up to our Newsletter to receive awesokme content in your inbox, every month</h2>
-            <div>
-              <input type="email" placeholder='Email ID' />
-              <button>Sing up</button>
+          <div className='Footer__1 container'>
+            <div className='Footer__1__content'>
+              <h2>Sing up to our Newsletter to receive awesokme content in your inbox, every month</h2>
+              <div>
+                <input type="email" placeholder='Email ID' />
+                <button>Sing up</button>
+              </div>
             </div>
-          </div>
-          <div className='Footer__1__text'>
-            <p>We don't span!</p>
-            <p>Read our privacy policy for more info.</p>
-          </div>
-        </div> 
-      </div>     
-    </div>
+            <div className='Footer__1__text'>
+              <p>We don't span!</p>
+              <p>Read our privacy policy for more info.</p>
+            </div>
+          </div> 
+        </div>     
+      </div>
 
         <div id="Footer__Blue" className='center'>
           <div className='Footer__2 container'>
@@ -34,7 +34,7 @@ const index = () => {
                 <h2>Study Via App</h2>
                 <p>Get link in sms our whats app the mycareer app.</p>
                 <p>Enter Mobile Number</p>
-                <input type="number" placeholder='+91 ' />
+                <input type="text" placeholder='+91 ' />
                 <button>Get the Link</button>
               </div>
 

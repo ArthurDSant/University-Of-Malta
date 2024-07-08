@@ -9,7 +9,9 @@ const index = () => {
         <div className="intro__first">
           <MdKeyboardDoubleArrowDown className="arrow"/>
           <h3>One Year ITI Courses in Malta for International Students</h3>
-            <img src="/woman.png" className="woman"/>
+            <div className="womman__img">
+              <img src="/woman.png" className="woman"/>
+            </div>
           <h4>One Year ITI Courses In Malta For International Students</h4>
         </div>
 
@@ -63,7 +65,7 @@ const index = () => {
           </div>
         </div>
 
-        <div className="intro__fourth">
+        {/* <div className="intro__fourth">
           <h3>The Education system in Malta</h3>
           <p>
             The Education System In Malta Caters To Students Of All Ages. Primary-Level Pupils, Aged Five To Eleven,
@@ -87,7 +89,7 @@ const index = () => {
             Itls No Wonder That Maltese Universities Are Becoming Increasingly Popular Among International
             Students Who Are Looking For Quality Education At An Affordable Price.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   )

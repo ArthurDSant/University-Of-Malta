@@ -8,6 +8,10 @@
 .container {
    width: 900px;
    background-repeat: no-repeat;
+} @media (max-width: 700px) {
+   .container {
+      width: 95%;
+   }
 }
 
 .containerFull {

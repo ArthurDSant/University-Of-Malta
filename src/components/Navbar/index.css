@@ -1,31 +1,5 @@
 @media (min-width: 500px) {
 
-   /* .nav__left a::after{
-      content: '';
-      width: 0%;
-      height: 2px;
-      left: 0;
-      bottom: 2px;
-      position: absolute;
-      background-color: var(--hover);
-      transition: 0.23s;
-   }
-
-   .nav__left a.active::after{
-      content: '';
-      width: 0%;
-      height: 2px;
-      left: 0;
-      bottom: 2px;
-      position: absolute;
-      background-color: var(--hover);
-      transition: 0.23s;
-   }
-   
-   .nav__left a:hover::after {
-      width: 100%;
-   }*/
-
    .nav__left a:hover {
       color: var(--hover);
       text-decoration: underline;
@@ -46,7 +20,7 @@ nav {
    justify-content: center;
    width: 100%;
    height: 60px;
-   padding: 10px 0px;
+   padding: 10px 0px 0px;
    background-color: var(--background);
 }
 
@@ -121,7 +95,7 @@ nav {
    background-color: var(--hover);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
 
    .Navbar a:active {
       color: var(--color);
@@ -140,7 +114,7 @@ nav {
    .Navbar {
       max-width: 100%;
       align-items: center;
-      position: relative;
+      position: fixed;
    }
 
    .navbar {
@@ -157,12 +131,12 @@ nav {
 
    .nav__right {
       display: flex;
-      align-items: center;
+      align-items: end;
       flex-direction: column;
       justify-content: center;
       position: absolute;
       overflow: hidden;
-      top: 75px;
+      top: 60px;
       right: 0px;
       width: 100%;
       height: 0px;
@@ -173,7 +147,7 @@ nav {
    }
 
    .nav__right a {
-      width: 95%;
+      width: 100%;
       font-size: 14px;
       text-align: center;
       padding: 5px 0 5px 0;
@@ -185,14 +159,18 @@ nav {
       right: 0px;
       width: 100%;
       height: 120px;
+      background: var(--background);
       opacity: 1;
    }
 
    .nav__right.open a {
-      width: 95%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
       font-size: 14px;
       text-align: center;
-      padding: 5px 0 5px 0;
+      padding: 5px 0px 5px 0px;
       color: var(--color);
    }
 
