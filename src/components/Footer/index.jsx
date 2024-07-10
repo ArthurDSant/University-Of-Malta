@@ -7,9 +7,8 @@ import './index.css'
 const index = () => {
   return (
     <div>
-      <div id='Footer__Black' className='center'>
-        <div>
-
+      <div id='Footer__Black'>
+        <div className='center'>
           <div className='Footer__1 container'>
             <div className='Footer__1__content'>
               <h2>Sing up to our Newsletter to receive awesokme content in your inbox, every month</h2>
