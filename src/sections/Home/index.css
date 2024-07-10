@@ -7,7 +7,7 @@
 }
 
 .background__image {
-   max-width: 100%;
+   width: 100%;
    background-image: var(--image);
    background-size: cover;
    background-position: center center;
@@ -72,6 +72,11 @@
       height: 900px;
    }
 
+   .background__image {
+      width: 90vw;
+      background-attachment: fixed;
+   }
+
    .Home {
       display: flex;
       align-items: center;
@@ -86,7 +91,7 @@
       background-attachment: local;
    }
 
-   .home__right img {
+   .home__right {
       display: none;
    }
 }

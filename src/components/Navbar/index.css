@@ -1,5 +1,4 @@
 @media (min-width: 500px) {
-
    .nav__left a:hover {
       color: var(--hover);
       text-decoration: underline;
