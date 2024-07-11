@@ -1,12 +1,12 @@
-import Home from '../../sections/Home'
-import Introduction from '../../sections/Introduction'
-import TableOfContent from '../../sections/Table-Of-Content'
-import ITICoursesDetails from '../../sections/ITI-Courses-Details'
-import WhatAreITICourses from '../../sections/What-Are-ITI-Courses'
-import BestITICourse from '../../sections/Best-ITI-Course'
-import Conclusion from '../../sections/Conclusion'
-import Locations from '../../sections/Locations'
-import Form from '../../sections/Form'
+import Home from '../../scenes/Home'
+import Introduction from '../../scenes/Introduction'
+import TableOfContent from '../../scenes/Table-Of-Content'
+import ITICoursesDetails from '../../scenes/ITI-Courses-Details'
+import WhatAreITICourses from '../../scenes/What-Are-ITI-Courses'
+import BestITICourse from '../../scenes/Best-ITI-Course'
+import Conclusion from '../../scenes/Conclusion'
+import Locations from '../../scenes/Locations'
+// import Form from '../../scenes/Form'
 
 const index = () => {
   
