@@ -89,6 +89,7 @@ nav {
 }
 .Register {
    background-color: var(--first);
+   color: var(--second);
    transition: 0.2s;
 }.Register:hover {
    background-color: var(--hover);
